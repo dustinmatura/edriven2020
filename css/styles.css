@@ -1,0 +1,22 @@
+table{
+    width: 400px;
+    height: 350px;
+}
+
+.body-color{
+    background-color: #ffc3b1;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+#title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+th {
+    border: 1px solid black;
+    font-weight: lighter;
+}  
