@@ -1,0 +1,19 @@
+body {
+    font-family:Helvetica;
+}
+input {
+    border-radius: 4px;
+    height: 25px;
+    text-align: right;
+    font-family:Helvetica;
+}
+button
+{
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 30px;
+}
+.tax, .total, .paid, .change {
+    background-color: rgb(192, 192, 192);
+}

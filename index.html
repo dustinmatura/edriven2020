@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Tax Calculator</title>
+</head>
+
+<body>
+    <form action="">
+        <input type="number" id="subtotal" name="subtotal" placeholder="Subtotal"><b> User input from 100 to 10,000 </b><br><br>
+        <input type="text" id="tax" name="tax" placeholder="Tax" style="background-color:rgb(223, 223, 223)" disabled. = "true"><b> +12% Tax</b><br><br>
+        <input type="text" id="total" name="total" placeholder="Total" style="background-color:rgb(223, 223, 223)" disabled = "true"><b> Subtotal + Tax</b><br><br>
+        <input type="number" id="paid" name="paid" placeholder="Amount Paid" style="background-color:rgb(223, 223, 223)" disabled = "true"><b> Minimum is base on Subtotal + Tax</b><br><br>
+        <input type="text" id="change" name="change" placeholder="Change" style="background-color:rgb(223, 223, 223)" disabled = "true"><b> Amount Paid - Total</b><br><br>
+        <button type="pButton" id="pButton" name="pButton" style="background-color: rgb(97, 46, 51)">Pay</button>
+    </form>
+    <script src="js/my.js"></script>
+</body>
