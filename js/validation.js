@@ -20,14 +20,14 @@ var subtotal3 = document.getElementById('subtotal3')
 var subtotal4 = document.getElementById('subtotal4')
 var save = document.getElementById('save')
 var a = [ORNumber, customerName, item1, item2, item3, item4, price1, price2, price3, price4, qty1, qty2, qty3, qty4, subtotal1, subtotal2, subtotal3, subtotal4]
+
 newCustomer.addEventListener('show.bs.modal', function(){
     for(var i = 0; i < a.length; i++){
         a[i].value = ''
         if (i >= 2){
             a[i].disabled = true
         }
-    }
-    
+    } 
 })
 
 const request = 'https://www.themealdb.com/api/json/v1/1/filter.php?a=Japanese'
@@ -106,14 +106,12 @@ customerName.addEventListener('change', function(){
         }
         else{
             customerName.value = ''
-        }              
-           
+        }                 
     }
     else{
         item1.disabled = true
         customerName.value = ''
     }
-    
 })
 
 item1.addEventListener('change', function(){
