@@ -1,19 +1,88 @@
-body {
-    font-family:Helvetica;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-input {
-    border-radius: 4px;
-    height: 25px;
-    text-align: right;
-    font-family:Helvetica;
+
+a:link {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
 }
-button
-{
-    border-radius: 4px;
-    color: rgb(255, 255, 255);
-    width: 100px;
-    height: 30px;
+
+a:visited {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
 }
-.tax, .total, .paid, .change {
-    background-color: rgb(192, 192, 192);
+
+a:hover {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: underline;
 }
+
+a:active {
+  color:  #000000;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+td {
+    background-color: #232123;
+    color: white;
+}
+
+.itemTxt {
+    color:white 
+}
+
+.tableItems {
+    color: white;
+}
+
+.x {
+    position: absolute;
+    width: 950px;
+    height: 400px;
+    right: 25%;
+    top: 10%;
+}
+
+.links{
+    margin-bottom: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+        
+}
+
+.btn {
+    background-color: #00a589;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+.Jbutton{
+    border: 2px solid transparent;
+    border-color: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #06063a;
+    text-decoration: none;
+}
+
+#flogo, #tlogo, #llogo, #glogo{
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
+
